@@ -1,0 +1,654 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+Most Recent Deploy=Folder Deployment 1
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=D:\Badar3\Release
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+p2BBDE.DLL=
+crystal=
+
+[Package|Dep File 1|Missing Dependency Information]
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=
+D:\WINNT\system32\FOXTLIB.OCX=
+D:\Program Files\Seagate Software\Report Designer Component\craxdui.dll=
+D:\Program Files\Seagate Software\Viewers\ActiveXViewer\sviewhlp.dll=
+D:\Program Files\Seagate Software\Report Designer Component\crystalwizard.dll=
+D:\Program Files\Seagate Software\Report Designer Component\craxddt.dll=
+D:\Program Files\Seagate Software\Viewers\ActiveXViewer\xqviewer.dll=
+D:\Program Files\Common Files\System\ado\msado25.tlb=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+D:\WINNT\system32\comdlg32.ocx=
+D:\WINNT\system32\Msflxgrd.ocx=
+D:\WINNT\system32\COMCT332.OCX=
+D:\WINNT\system32\Mscomctl.ocx=
+
+[Package|Dep File 1|Files Added]
+d:\badar3\accessdb\dbinvman.mdb=
+d:\badar3\vbproject\reports\allcustomerssummary.rpt=
+d:\badar3\vbproject\reports\customerbalance.rpt=
+d:\badar3\vbproject\reports\customerrates.rpt=
+d:\badar3\vbproject\reports\customersummary.rpt=
+d:\badar3\vbproject\reports\custvoucher.rpt=
+d:\badar3\vbproject\reports\invoice.rpt=
+d:\badar3\vbproject\reports\ledger.rpt=
+d:\badar3\vbproject\reports\listofproducts.rpt=
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+D:\Badar3\vbproject\MzInvMan.exe=Yes
+D:\WINNT\system32\msvbvm60.dll=Yes
+D:\WINNT\system32\oleaut32.dll=Yes
+D:\WINNT\system32\olepro32.dll=Yes
+D:\WINNT\system32\asycfilt.dll=Yes
+D:\WINNT\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+D:\WINNT\system32\MSSTDFMT.DLL=Yes
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+D:\WINNT\system32\MSJET35.DLL=Yes
+D:\WINNT\system32\MSJTER35.DLL=Yes
+D:\WINNT\system32\MSJINT35.DLL=Yes
+D:\WINNT\system32\vbajet32.dll=Yes
+D:\WINNT\system32\expsrv.dll=Yes
+D:\WINNT\system32\MSRD2X35.DLL=Yes
+D:\WINNT\system32\MSREPL35.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+D:\WINNT\system32\VB5DB.DLL=Yes
+D:\Program Files\Seagate Software\Viewers\ActiveXViewer\xqviewer.dll=Yes
+D:\Program Files\Seagate Software\Report Designer Component\craxddt.dll=Yes
+D:\Program Files\Seagate Software\Report Designer Component\craxdrt.dll=Yes
+D:\WINNT\system32\Implode.dll=Yes
+D:\WINNT\system32\Crpaig80.dll=Yes
+\program files\seagate software\shared\SSCSDK80.DLL=Yes
+D:\WINNT\system32\P2smon.dll=Yes
+D:\Program Files\Seagate Software\Report Designer Component\crystalwizard.dll=Yes
+D:\Program Files\Seagate Software\Viewers\ActiveXViewer\sviewhlp.dll=Yes
+D:\Program Files\Seagate Software\Report Designer Component\craxdui.dll=Yes
+D:\WINNT\system32\Mscomctl.ocx=Yes
+D:\WINNT\system32\MSCOMCT2.OCX=Yes
+D:\WINNT\system32\COMCT332.OCX=Yes
+D:\WINNT\system32\Msflxgrd.ocx=Yes
+D:\WINNT\system32\MSDATGRD.OCX=Yes
+D:\WINNT\system32\MSMASK32.OCX=Yes
+D:\WINNT\system32\DBLIST32.OCX=Yes
+D:\WINNT\system32\FOXTLIB.OCX=Yes
+D:\WINNT\system32\MSADODC.OCX=Yes
+D:\WINNT\system32\SYSINFO.OCX=Yes
+D:\WINNT\system32\TABCTL32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=Yes
+D:\WINNT\system32\MSDATLST.OCX=Yes
+D:\WINNT\system32\comdlg32.ocx=Yes
+D:\WINNT\system32\COMCTL32.OCX=Yes
+D:\WINNT\system32\Crystl32.OCX=Yes
+D:\WINNT\system32\crpe32.dll=Yes
+D:\WINNT\system32\msvcrt.dll=Yes
+D:\WINNT\system32\mfc42.dll=Yes
+D:\WINNT\crystal\Crxlat32.dll=Yes
+D:\WINNT\system32\P2bbnd.dll=Yes
+D:\WINNT\system32\p2bdao.dll=Yes
+D:\WINNT\crystal\p2bxbse.dll=Yes
+D:\WINNT\system32\p2ctdao.dll=Yes
+D:\WINNT\system32\p2irdao.dll=Yes
+D:\WINNT\crystal\p2sifmx.dll=Yes
+D:\WINNT\system32\p2sodbc.dll=Yes
+D:\WINNT\crystal\p2sora7.dll=Yes
+D:\WINNT\crystal\p2ssql.dll=Yes
+D:\WINNT\crystal\p2ssyb10.dll=Yes
+D:\WINNT\crystal\p2soledb.dll=Yes
+D:\WINNT\crystal\u2ddisk.dll=Yes
+D:\WINNT\crystal\u2dmapi.dll=Yes
+D:\WINNT\crystal\u2dnotes.dll=Yes
+D:\WINNT\crystal\u2dpost.dll=Yes
+D:\WINNT\crystal\u2dvim.dll=Yes
+D:\WINNT\crystal\u2dapp.dll=Yes
+D:\WINNT\crystal\u2fcr.dll=Yes
+D:\WINNT\crystal\u2fhtml.dll=Yes
+D:\WINNT\crystal\u2fodbc.dll=Yes
+D:\WINNT\crystal\u2frec.dll=Yes
+D:\WINNT\crystal\u2frtf.dll=Yes
+D:\WINNT\crystal\u2fsepv.dll=Yes
+D:\WINNT\crystal\u2ftext.dll=Yes
+D:\WINNT\crystal\u2fwks.dll=Yes
+D:\WINNT\crystal\u2fwordw.dll=Yes
+D:\WINNT\crystal\u2fxls.dll=Yes
+D:\WINNT\crystal\u25dts.dll=Yes
+D:\WINNT\crystal\U25STORE.DLL=Yes
+D:\WINNT\crystal\U25TOTAL.DLL=Yes
+D:\WINNT\crystal\u2l2000.dll=Yes
+D:\WINNT\crystal\U2LBAR.DLL=Yes
+D:\WINNT\crystal\u2lcom.dll=Yes
+D:\WINNT\crystal\u2ldts.dll=Yes
+D:\WINNT\crystal\u2lsamp1.dll=Yes
+D:\WINNT\crystal\u252000.dll=Yes
+D:\WINNT\system32\MSRDO20.DLL=Yes
+D:\WINNT\system32\RDOCURS.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Badar3\accessdb\dbInvMan.mdb=Yes
+D:\Badar3\vbproject\Reports\ALLCustomersSummary.rpt=Yes
+D:\Badar3\vbproject\Reports\CustomerBalance.rpt=Yes
+D:\Badar3\vbproject\Reports\CustomerRates.rpt=Yes
+D:\Badar3\vbproject\Reports\CustomerSummary.rpt=Yes
+D:\Badar3\vbproject\Reports\CustVoucher.rpt=Yes
+D:\Badar3\vbproject\Reports\Invoice.rpt=Yes
+D:\Badar3\vbproject\Reports\Ledger.rpt=Yes
+D:\Badar3\vbproject\Reports\ListOfProducts.rpt=Yes
+D:\WINNT\system32\odbc32.dll=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+D:\Badar3\vbproject\MzInvMan.exe=$(AppPath)
+D:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+D:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+D:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+D:\Program Files\Seagate Software\Viewers\ActiveXViewer\xqviewer.dll=$(WinSysPath)
+D:\Program Files\Seagate Software\Report Designer Component\craxddt.dll=$(WinSysPath)
+D:\Program Files\Seagate Software\Report Designer Component\craxdrt.dll=$(WinSysPath)
+D:\WINNT\system32\Implode.dll=$(AppPath)
+D:\WINNT\system32\Crpaig80.dll=$(WinSysPath)
+\program files\seagate software\shared\SSCSDK80.DLL=$(WinSysPath)
+D:\WINNT\system32\P2smon.dll=$(WinSysPath)
+D:\Program Files\Seagate Software\Report Designer Component\crystalwizard.dll=$(WinSysPath)
+D:\Program Files\Seagate Software\Viewers\ActiveXViewer\sviewhlp.dll=$(WinSysPath)
+D:\Program Files\Seagate Software\Report Designer Component\craxdui.dll=$(WinSysPath)
+D:\WINNT\system32\Mscomctl.ocx=$(WinSysPath)
+D:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+D:\WINNT\system32\COMCT332.OCX=$(WinSysPath)
+D:\WINNT\system32\Msflxgrd.ocx=$(WinSysPath)
+D:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+D:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+D:\WINNT\system32\DBLIST32.OCX=$(WinSysPath)
+D:\WINNT\system32\FOXTLIB.OCX=$(WinSysPath)
+D:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+D:\WINNT\system32\SYSINFO.OCX=$(WinSysPath)
+D:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=$(WinSysPath)
+D:\WINNT\system32\MSDATLST.OCX=$(WinSysPath)
+D:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+D:\WINNT\system32\COMCTL32.OCX=$(WinSysPath)
+D:\WINNT\system32\Crystl32.OCX=$(WinSysPath)
+D:\WINNT\system32\crpe32.dll=$(WinSysPath)
+D:\WINNT\system32\msvcrt.dll=$(WinSysPath)
+D:\WINNT\system32\mfc42.dll=$(WinSysPath)
+D:\WINNT\crystal\Crxlat32.dll=$(WinSysPath)
+D:\WINNT\system32\P2bbnd.dll=$(WinSysPath)
+D:\WINNT\system32\p2bdao.dll=$(WinSysPath)
+D:\WINNT\crystal\p2bxbse.dll=$(WinSysPath)
+D:\WINNT\system32\p2ctdao.dll=$(WinSysPath)
+D:\WINNT\system32\p2irdao.dll=$(WinSysPath)
+D:\WINNT\crystal\p2sifmx.dll=$(WinSysPath)
+D:\WINNT\system32\p2sodbc.dll=$(WinSysPath)
+D:\WINNT\crystal\p2sora7.dll=$(WinSysPath)
+D:\WINNT\crystal\p2ssql.dll=$(WinSysPath)
+D:\WINNT\crystal\p2ssyb10.dll=$(WinSysPath)
+D:\WINNT\crystal\p2soledb.dll=$(WinSysPath)
+D:\WINNT\crystal\u2ddisk.dll=$(WinSysPath)
+D:\WINNT\crystal\u2dmapi.dll=$(WinSysPath)
+D:\WINNT\crystal\u2dnotes.dll=$(WinSysPath)
+D:\WINNT\crystal\u2dpost.dll=$(WinSysPath)
+D:\WINNT\crystal\u2dvim.dll=$(WinSysPath)
+D:\WINNT\crystal\u2dapp.dll=$(WinSysPath)
+D:\WINNT\crystal\u2fcr.dll=$(WinSysPath)
+D:\WINNT\crystal\u2fhtml.dll=$(WinSysPath)
+D:\WINNT\crystal\u2fodbc.dll=$(WinSysPath)
+D:\WINNT\crystal\u2frec.dll=$(WinSysPath)
+D:\WINNT\crystal\u2frtf.dll=$(WinSysPath)
+D:\WINNT\crystal\u2fsepv.dll=$(WinSysPath)
+D:\WINNT\crystal\u2ftext.dll=$(WinSysPath)
+D:\WINNT\crystal\u2fwks.dll=$(WinSysPath)
+D:\WINNT\crystal\u2fwordw.dll=$(WinSysPath)
+D:\WINNT\crystal\u2fxls.dll=$(WinSysPath)
+D:\WINNT\crystal\u25dts.dll=$(WinSysPath)
+D:\WINNT\crystal\U25STORE.DLL=$(AppPath)
+D:\WINNT\crystal\U25TOTAL.DLL=$(AppPath)
+D:\WINNT\crystal\u2l2000.dll=$(WinSysPath)
+D:\WINNT\crystal\U2LBAR.DLL=$(AppPath)
+D:\WINNT\crystal\u2lcom.dll=$(WinSysPath)
+D:\WINNT\crystal\u2ldts.dll=$(WinSysPath)
+D:\WINNT\crystal\u2lsamp1.dll=$(WinSysPath)
+D:\WINNT\crystal\u252000.dll=$(WinSysPath)
+D:\WINNT\system32\MSRDO20.DLL=$(WinSysPath)
+D:\WINNT\system32\RDOCURS.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Badar3\accessdb\dbInvMan.mdb=$(AppPath)
+D:\Badar3\vbproject\Reports\ALLCustomersSummary.rpt=$(AppPath)
+D:\Badar3\vbproject\Reports\CustomerBalance.rpt=$(AppPath)
+D:\Badar3\vbproject\Reports\CustomerRates.rpt=$(AppPath)
+D:\Badar3\vbproject\Reports\CustomerSummary.rpt=$(AppPath)
+D:\Badar3\vbproject\Reports\CustVoucher.rpt=$(AppPath)
+D:\Badar3\vbproject\Reports\Invoice.rpt=$(AppPath)
+D:\Badar3\vbproject\Reports\Ledger.rpt=$(AppPath)
+D:\Badar3\vbproject\Reports\ListOfProducts.rpt=$(AppPath)
+D:\WINNT\system32\odbc32.dll=$(WinSysPathSysFile)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+D:\Badar3\vbproject\MzInvMan.exe=No
+D:\WINNT\system32\Implode.dll=No
+D:\WINNT\crystal\U25STORE.DLL=No
+D:\WINNT\crystal\U25TOTAL.DLL=No
+D:\WINNT\crystal\U2LBAR.DLL=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Badar3\accessdb\dbInvMan.mdb=No
+D:\Badar3\vbproject\Reports\ALLCustomersSummary.rpt=No
+D:\Badar3\vbproject\Reports\CustomerBalance.rpt=No
+D:\Badar3\vbproject\Reports\CustomerRates.rpt=No
+D:\Badar3\vbproject\Reports\CustomerSummary.rpt=No
+D:\Badar3\vbproject\Reports\CustVoucher.rpt=No
+D:\Badar3\vbproject\Reports\Invoice.rpt=No
+D:\Badar3\vbproject\Reports\Ledger.rpt=No
+D:\Badar3\vbproject\Reports\ListOfProducts.rpt=No
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=Microzone Invoice Manager
+
+[Package|Dep File 1|IconGroups]
+Group0=Microzone Invoice Manager
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dep File 1|Microzone Invoice Manager]
+Icon1=MzInvMan.exe
+Title1=Microzone Invoice Manager
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|DepFile]
+DepCabFile=MzInvMan.CAB
+DepCabRun=MzInvMan.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=D:\Badar3\Release
+ProjectFolder=D:\Badar3\vbproject
+ServerSideCab=
+File1=D:\Badar3\Release\MzInvMan.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|Folder Deployment 1|Root]
+Package=Dep File 1
+Handler=PDWizard.FolderDplySubWiz
+Folder=c:\badar
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Release\InvRelease
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 1|Files Found]
+ALLCustomersSummary.rpt=D:\Badar2\INVOICE\vbproject\Reports\ALLCustomersSummary.rpt
+dbInvMan.mdb=D:\Badar2\INVOICE\accessdb\dbInvMan.mdb
+
+[Package|Standard Setup Package 1|Files Released]
+p2BBDE.DLL=
+crystal=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=
+D:\WINNT\system32\FOXTLIB.OCX=
+D:\Program Files\Seagate Software\Report Designer Component\craxdui.dll=
+D:\Program Files\Seagate Software\Viewers\ActiveXViewer\sviewhlp.dll=
+D:\Program Files\Seagate Software\Report Designer Component\crystalwizard.dll=
+D:\Program Files\Seagate Software\Report Designer Component\craxddt.dll=
+D:\Program Files\Seagate Software\Viewers\ActiveXViewer\xqviewer.dll=
+D:\Program Files\Common Files\System\ado\msado25.tlb=
+D:\WINNT\system32\FLEXWIZ.OCX=
+D:\WINNT\system32\craxdui.dll=
+D:\WINNT\system32\sviewhlp.dll=
+D:\WINNT\system32\crystalwizard.dll=
+D:\WINNT\system32\craxdrt.dll=
+D:\WINNT\system32\craxddt.dll=
+D:\WINNT\system32\xqviewer.dll=
+D:\Program Files\Common Files\System\ado\msado26.tlb=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+D:\WINNT\system32\comdlg32.ocx=
+D:\WINNT\system32\Msflxgrd.ocx=
+D:\WINNT\system32\COMCT332.OCX=
+D:\WINNT\system32\Mscomctl.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+dbinvman.mdb=
+allcustomerssummary.rpt=
+customerbalance.rpt=
+customerrates.rpt=
+customersummary.rpt=
+custvoucher.rpt=
+invoice.rpt=
+ledger.rpt=
+listofproducts.rpt=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\WINNT\system32\msvbvm60.dll=Yes
+D:\WINNT\system32\oleaut32.dll=Yes
+D:\WINNT\system32\olepro32.dll=Yes
+D:\WINNT\system32\asycfilt.dll=Yes
+D:\WINNT\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINNT\system32\MSSTDFMT.DLL=Yes
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+D:\WINNT\system32\MSJET35.DLL=Yes
+D:\WINNT\system32\MSJTER35.DLL=Yes
+D:\WINNT\system32\MSJINT35.DLL=Yes
+D:\WINNT\system32\vbajet32.dll=Yes
+D:\WINNT\system32\expsrv.dll=Yes
+D:\WINNT\system32\MSRD2X35.DLL=Yes
+D:\WINNT\system32\MSREPL35.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+D:\WINNT\system32\VB5DB.DLL=Yes
+D:\WINNT\system32\Implode.dll=Yes
+D:\WINNT\system32\Crpaig80.dll=Yes
+\program files\seagate software\shared\SSCSDK80.DLL=Yes
+D:\WINNT\system32\P2smon.dll=Yes
+D:\WINNT\system32\Mscomctl.ocx=Yes
+D:\WINNT\system32\MSCOMCT2.OCX=Yes
+D:\WINNT\system32\COMCT332.OCX=Yes
+D:\WINNT\system32\Msflxgrd.ocx=Yes
+D:\WINNT\system32\MSDATGRD.OCX=Yes
+D:\WINNT\system32\MSMASK32.OCX=Yes
+D:\WINNT\system32\DBLIST32.OCX=Yes
+D:\WINNT\system32\FOXTLIB.OCX=Yes
+D:\WINNT\system32\MSADODC.OCX=Yes
+D:\WINNT\system32\SYSINFO.OCX=Yes
+D:\WINNT\system32\TABCTL32.OCX=Yes
+D:\WINNT\system32\MSDATLST.OCX=Yes
+D:\WINNT\system32\comdlg32.ocx=Yes
+D:\WINNT\system32\COMCTL32.OCX=Yes
+D:\WINNT\system32\Crystl32.OCX=Yes
+D:\WINNT\system32\crpe32.dll=Yes
+D:\WINNT\system32\msvcrt.dll=Yes
+D:\WINNT\system32\mfc42.dll=Yes
+D:\WINNT\crystal\Crxlat32.dll=Yes
+D:\WINNT\system32\P2bbnd.dll=Yes
+D:\WINNT\system32\p2bdao.dll=Yes
+D:\WINNT\crystal\p2bxbse.dll=Yes
+D:\WINNT\system32\p2ctdao.dll=Yes
+D:\WINNT\system32\p2irdao.dll=Yes
+D:\WINNT\crystal\p2sifmx.dll=Yes
+D:\WINNT\system32\p2sodbc.dll=Yes
+D:\WINNT\crystal\p2sora7.dll=Yes
+D:\WINNT\crystal\p2ssql.dll=Yes
+D:\WINNT\crystal\p2ssyb10.dll=Yes
+D:\WINNT\crystal\p2soledb.dll=Yes
+D:\WINNT\crystal\u2ddisk.dll=Yes
+D:\WINNT\crystal\u2dmapi.dll=Yes
+D:\WINNT\crystal\u2dnotes.dll=Yes
+D:\WINNT\crystal\u2dpost.dll=Yes
+D:\WINNT\crystal\u2dvim.dll=Yes
+D:\WINNT\crystal\u2dapp.dll=Yes
+D:\WINNT\crystal\u2fcr.dll=Yes
+D:\WINNT\crystal\u2fhtml.dll=Yes
+D:\WINNT\crystal\u2fodbc.dll=Yes
+D:\WINNT\crystal\u2frec.dll=Yes
+D:\WINNT\crystal\u2frtf.dll=Yes
+D:\WINNT\crystal\u2fsepv.dll=Yes
+D:\WINNT\crystal\u2ftext.dll=Yes
+D:\WINNT\crystal\u2fwks.dll=Yes
+D:\WINNT\crystal\u2fwordw.dll=Yes
+D:\WINNT\crystal\u2fxls.dll=Yes
+D:\WINNT\crystal\u25dts.dll=Yes
+D:\WINNT\crystal\U25STORE.DLL=Yes
+D:\WINNT\crystal\U25TOTAL.DLL=Yes
+D:\WINNT\crystal\u2l2000.dll=Yes
+D:\WINNT\crystal\U2LBAR.DLL=Yes
+D:\WINNT\crystal\u2lcom.dll=Yes
+D:\WINNT\crystal\u2ldts.dll=Yes
+D:\WINNT\crystal\u2lsamp1.dll=Yes
+D:\WINNT\crystal\u252000.dll=Yes
+D:\WINNT\system32\MSRDO20.DLL=Yes
+D:\WINNT\system32\RDOCURS.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\WINNT\system32\xqviewer.dll=Yes
+D:\WINNT\system32\craxddt.dll=Yes
+D:\WINNT\system32\craxdrt.dll=Yes
+D:\WINNT\system32\crystalwizard.dll=Yes
+D:\WINNT\system32\sviewhlp.dll=Yes
+D:\WINNT\system32\craxdui.dll=Yes
+D:\WINNT\system32\FLEXWIZ.OCX=Yes
+D:\Badar2\INVOICE\vbproject\MzInvMan.exe=Yes
+D:\Program Files\Common Files\System\ado\msado26.tlb=Yes
+D:\Badar2\INVOICE\accessdb\dbInvMan.mdb=Yes
+D:\Badar2\INVOICE\vbproject\Reports\ALLCustomersSummary.rpt=Yes
+D:\Badar2\INVOICE\vbproject\Reports\CustomerBalance.rpt=Yes
+D:\Badar2\INVOICE\vbproject\Reports\CustomerRates.rpt=Yes
+D:\Badar2\INVOICE\vbproject\Reports\CustomerSummary.rpt=Yes
+D:\Badar2\INVOICE\vbproject\Reports\CustVoucher.rpt=Yes
+D:\Badar2\INVOICE\vbproject\Reports\Invoice.rpt=Yes
+D:\Badar2\INVOICE\vbproject\Reports\Ledger.rpt=Yes
+D:\Badar2\INVOICE\vbproject\Reports\ListOfProducts.rpt=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Badar3\vbproject\MzInvMan.exe=$(AppPath)
+D:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+D:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+D:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+D:\Program Files\Seagate Software\Viewers\ActiveXViewer\xqviewer.dll=$(WinSysPath)
+D:\Program Files\Seagate Software\Report Designer Component\craxddt.dll=$(WinSysPath)
+D:\Program Files\Seagate Software\Report Designer Component\craxdrt.dll=$(WinSysPath)
+D:\WINNT\system32\Implode.dll=$(AppPath)
+D:\WINNT\system32\Crpaig80.dll=$(WinSysPath)
+\program files\seagate software\shared\SSCSDK80.DLL=$(WinSysPath)
+D:\WINNT\system32\P2smon.dll=$(WinSysPath)
+D:\Program Files\Seagate Software\Report Designer Component\crystalwizard.dll=$(WinSysPath)
+D:\Program Files\Seagate Software\Viewers\ActiveXViewer\sviewhlp.dll=$(WinSysPath)
+D:\Program Files\Seagate Software\Report Designer Component\craxdui.dll=$(WinSysPath)
+D:\WINNT\system32\Mscomctl.ocx=$(WinSysPath)
+D:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+D:\WINNT\system32\COMCT332.OCX=$(WinSysPath)
+D:\WINNT\system32\Msflxgrd.ocx=$(WinSysPath)
+D:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+D:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+D:\WINNT\system32\DBLIST32.OCX=$(WinSysPath)
+D:\WINNT\system32\FOXTLIB.OCX=$(WinSysPath)
+D:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+D:\WINNT\system32\SYSINFO.OCX=$(WinSysPath)
+D:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=$(WinSysPath)
+D:\WINNT\system32\MSDATLST.OCX=$(WinSysPath)
+D:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+D:\WINNT\system32\COMCTL32.OCX=$(WinSysPath)
+D:\WINNT\system32\Crystl32.OCX=$(WinSysPath)
+D:\WINNT\system32\crpe32.dll=$(WinSysPath)
+D:\WINNT\system32\msvcrt.dll=$(WinSysPath)
+D:\WINNT\system32\mfc42.dll=$(WinSysPath)
+D:\WINNT\crystal\Crxlat32.dll=$(WinSysPath)
+D:\WINNT\system32\P2bbnd.dll=$(WinSysPath)
+D:\WINNT\system32\p2bdao.dll=$(WinSysPath)
+D:\WINNT\crystal\p2bxbse.dll=$(WinSysPath)
+D:\WINNT\system32\p2ctdao.dll=$(WinSysPath)
+D:\WINNT\system32\p2irdao.dll=$(WinSysPath)
+D:\WINNT\crystal\p2sifmx.dll=$(WinSysPath)
+D:\WINNT\system32\p2sodbc.dll=$(WinSysPath)
+D:\WINNT\crystal\p2sora7.dll=$(WinSysPath)
+D:\WINNT\crystal\p2ssql.dll=$(WinSysPath)
+D:\WINNT\crystal\p2ssyb10.dll=$(WinSysPath)
+D:\WINNT\crystal\p2soledb.dll=$(WinSysPath)
+D:\WINNT\crystal\u2ddisk.dll=$(WinSysPath)
+D:\WINNT\crystal\u2dmapi.dll=$(WinSysPath)
+D:\WINNT\crystal\u2dnotes.dll=$(WinSysPath)
+D:\WINNT\crystal\u2dpost.dll=$(WinSysPath)
+D:\WINNT\crystal\u2dvim.dll=$(WinSysPath)
+D:\WINNT\crystal\u2dapp.dll=$(WinSysPath)
+D:\WINNT\crystal\u2fcr.dll=$(WinSysPath)
+D:\WINNT\crystal\u2fhtml.dll=$(WinSysPath)
+D:\WINNT\crystal\u2fodbc.dll=$(WinSysPath)
+D:\WINNT\crystal\u2frec.dll=$(WinSysPath)
+D:\WINNT\crystal\u2frtf.dll=$(WinSysPath)
+D:\WINNT\crystal\u2fsepv.dll=$(WinSysPath)
+D:\WINNT\crystal\u2ftext.dll=$(WinSysPath)
+D:\WINNT\crystal\u2fwks.dll=$(WinSysPath)
+D:\WINNT\crystal\u2fwordw.dll=$(WinSysPath)
+D:\WINNT\crystal\u2fxls.dll=$(WinSysPath)
+D:\WINNT\crystal\u25dts.dll=$(WinSysPath)
+D:\WINNT\crystal\U25STORE.DLL=$(AppPath)
+D:\WINNT\crystal\U25TOTAL.DLL=$(AppPath)
+D:\WINNT\crystal\u2l2000.dll=$(WinSysPath)
+D:\WINNT\crystal\U2LBAR.DLL=$(AppPath)
+D:\WINNT\crystal\u2lcom.dll=$(WinSysPath)
+D:\WINNT\crystal\u2ldts.dll=$(WinSysPath)
+D:\WINNT\crystal\u2lsamp1.dll=$(WinSysPath)
+D:\WINNT\crystal\u252000.dll=$(WinSysPath)
+D:\WINNT\system32\MSRDO20.DLL=$(WinSysPath)
+D:\WINNT\system32\RDOCURS.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Badar3\accessdb\dbInvMan.mdb=$(AppPath)
+D:\Badar3\vbproject\Reports\ALLCustomersSummary.rpt=$(AppPath)
+D:\Badar3\vbproject\Reports\CustomerBalance.rpt=$(AppPath)
+D:\Badar3\vbproject\Reports\CustomerRates.rpt=$(AppPath)
+D:\Badar3\vbproject\Reports\CustomerSummary.rpt=$(AppPath)
+D:\Badar3\vbproject\Reports\CustVoucher.rpt=$(AppPath)
+D:\Badar3\vbproject\Reports\Invoice.rpt=$(AppPath)
+D:\Badar3\vbproject\Reports\Ledger.rpt=$(AppPath)
+D:\Badar3\vbproject\Reports\ListOfProducts.rpt=$(AppPath)
+D:\WINNT\system32\xqviewer.dll=$(WinSysPath)
+D:\WINNT\system32\craxddt.dll=$(WinSysPath)
+D:\WINNT\system32\craxdrt.dll=$(WinSysPath)
+D:\WINNT\system32\crystalwizard.dll=$(WinSysPath)
+D:\WINNT\system32\sviewhlp.dll=$(WinSysPath)
+D:\WINNT\system32\craxdui.dll=$(WinSysPath)
+D:\WINNT\system32\FLEXWIZ.OCX=$(WinSysPath)
+D:\Badar2\INVOICE\vbproject\MzInvMan.exe=$(AppPath)
+D:\Program Files\Common Files\System\ado\msado26.tlb=$(WinSysPath)
+D:\Badar2\INVOICE\accessdb\dbInvMan.mdb=$(AppPath)
+D:\Badar2\INVOICE\vbproject\Reports\ALLCustomersSummary.rpt=$(AppPath)
+D:\Badar2\INVOICE\vbproject\Reports\CustomerBalance.rpt=$(AppPath)
+D:\Badar2\INVOICE\vbproject\Reports\CustomerRates.rpt=$(AppPath)
+D:\Badar2\INVOICE\vbproject\Reports\CustomerSummary.rpt=$(AppPath)
+D:\Badar2\INVOICE\vbproject\Reports\CustVoucher.rpt=$(AppPath)
+D:\Badar2\INVOICE\vbproject\Reports\Invoice.rpt=$(AppPath)
+D:\Badar2\INVOICE\vbproject\Reports\Ledger.rpt=$(AppPath)
+D:\Badar2\INVOICE\vbproject\Reports\ListOfProducts.rpt=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Badar3\vbproject\MzInvMan.exe=No
+D:\WINNT\system32\Implode.dll=Yes
+D:\WINNT\crystal\U25STORE.DLL=Yes
+D:\WINNT\crystal\U25TOTAL.DLL=Yes
+D:\WINNT\crystal\U2LBAR.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Badar3\accessdb\dbInvMan.mdb=No
+D:\Badar3\vbproject\Reports\ALLCustomersSummary.rpt=No
+D:\Badar3\vbproject\Reports\CustomerBalance.rpt=No
+D:\Badar3\vbproject\Reports\CustomerRates.rpt=No
+D:\Badar3\vbproject\Reports\CustomerSummary.rpt=No
+D:\Badar3\vbproject\Reports\CustVoucher.rpt=No
+D:\Badar3\vbproject\Reports\Invoice.rpt=No
+D:\Badar3\vbproject\Reports\Ledger.rpt=No
+D:\Badar3\vbproject\Reports\ListOfProducts.rpt=No
+D:\Badar2\INVOICE\vbproject\MzInvMan.exe=No
+D:\Badar2\INVOICE\accessdb\dbInvMan.mdb=No
+D:\Badar2\INVOICE\vbproject\Reports\ALLCustomersSummary.rpt=No
+D:\Badar2\INVOICE\vbproject\Reports\CustomerBalance.rpt=No
+D:\Badar2\INVOICE\vbproject\Reports\CustomerRates.rpt=No
+D:\Badar2\INVOICE\vbproject\Reports\CustomerSummary.rpt=No
+D:\Badar2\INVOICE\vbproject\Reports\CustVoucher.rpt=No
+D:\Badar2\INVOICE\vbproject\Reports\Invoice.rpt=No
+D:\Badar2\INVOICE\vbproject\Reports\Ledger.rpt=No
+D:\Badar2\INVOICE\vbproject\Reports\ListOfProducts.rpt=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Microzone Invoice Manager
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Microzone Invoice Manager
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Microzone Invoice Manager]
+Icon1=MzInvMan.exe
+Title1=Microzone Invoice Manager
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Release\InvRelease
+ProjectFolder=D:\Badar2\INVOICE\vbproject
+ServerSideCab=
+File1=D:\Release\InvRelease\setup.exe
+File2=D:\Release\InvRelease\Setup.Lst
+File3=D:\Release\InvRelease\MzInvMan.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
